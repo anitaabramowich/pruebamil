@@ -1,0 +1,27 @@
+.compartir{
+    text-align: center;
+    font-family: $font-stack;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.compartir2{
+    text-align: center;
+    font-family: $font-stack;
+    margin: 40px 0px 20px 0px;
+    font-size: 13px;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+    margin: 20px 7px 0px 7px;
+    color: rgb(180, 180, 180);
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover{
+    color: $primary-color;
+}

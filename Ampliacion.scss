@@ -1,0 +1,46 @@
+.caja-expandir{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 95%;
+}
+
+.iconClose{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 35px;
+}
+
+.caja-prueba{
+    width: 250px;
+    height: 200px;
+    background: $primary-color;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.boton-popup{
+    border: none;
+}
+
+.iconoFav-popup, .iconoDownload-popup{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+
+.datospopup{
+    margin-left: 35px;
+    font-family: $font-stack;
+    margin-top: 15px;
+}

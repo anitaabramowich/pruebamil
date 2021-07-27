@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./introduccion";
+@import "./busqueda";
+@import "./tendencias";
+@import "./Ampliacion.scss";
+@import "./footer";
+
+* {
+    @include format-document;
+}
